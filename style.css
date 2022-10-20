@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+body{
+    background: #191919;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.ul_div ul li{
+    list-style: none;
+    padding: 0 20px;
+   
+}
+.ul_div ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+}
+.ul_div ul li a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    transition: all .5s ease;
+    /* identical to box height, or 159% */
+    
+    
+    color: #FFFFFF;
+}
+.ul_div ul li a:hover{
+    color: #118DA8;
+    transition: all .5s ease;
+}
+/* header */
+.ikki_rasm{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+.ikki_text h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+padding-right: 250px;
+/* or 126% */
+
+letter-spacing: 3.2px;
+
+color: #FFFFFF;
+}
+.ikki_text span{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 88px;
+/* identical to box height, or 110% */
+
+letter-spacing: 3.2px;
+
+color: #FFFFFF;
+}
+.rasm_img{
+    margin-top: 25px;
+}
+.ikki_rasm ul li {
+    list-style: none;
+    display: flex;
+    
+}
+.ikki_rasm ul {
+    display: flex;
+    padding: 0 10px;
+    
+}
+.ikki_rasm ul li  img{
+    padding: 0 8px;
+}
+.ikki_text h6{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+/* identical to box height, or 160% */
+
+
+color: #FFFFFF;
+margin-top: 25px;
+padding:  10px 25px;
+
+}
+.ikkalaso {
+display: flex;
+justify-content: space-between;
+padding: 50px 0px;
+}
+.ikkalaso h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 79px;
+/* identical to box height, or 124% */
+
+letter-spacing: 2.88px;
+
+color: #FFFFFF;
+}
+.btn1{
+    background: #118DA8;
+border-radius: 6px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+padding: 3px 30px;
+
+color: #FFFFFF;
+
+}
+/* aside */
+.aside_imag{
+    display: flex;
+    justify-content: space-around;
+}
+.rasm_text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+
+}
+.h44{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+padding: 5px 5px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF;
+
+
+}
+.aside_imag{
+    background: #000000;
+border-radius: 32px;
+color: #fff;
+}
+.rasm_text h3 {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+
+
+color: #118DA8;
+padding: 20px 0;
+
+}
+.rasm_text h1 {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+/* or 110% */
+
+letter-spacing: 2.56px;
+
+color: #FFFFFF;
+padding-bottom: 25px;
+
+}
+.rasm_text p {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+padding-bottom: 20px;
+
+color: rgba(255, 255, 255, 0.7);
+}
+.aside_imag img{
+    border-radius: 15%;
+  
+   padding-top: 30px;
+   height: 420px;
+   
+ 
+  
+
+}
+.rasm_text h2{
+
+margin-bottom: 20px;
+
+
+
+}
+.rasm_text{
+    padding-right: 150px;
+}
+.aside_imag{
+   margin-top: 25px;
+}
+.btn2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #FFFFFF;
+    background: #118DA8;
+border-radius: 6px;
+padding: 10px 100px;
+text-align: center;
+}
+.aside2_hamma{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aside2_text h5{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #118DA8;
+padding: 10px 0;
+}
+.aside2_text h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 79px;
+/* identical to box height, or 122% */
+
+letter-spacing: 2.88px;
+
+color: #FFFFFF;
+padding: 10px 0px;
+}
+.aside2_text p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+
+
+color: rgba(255, 255, 255, 0.7);
+padding: 15px 0;
+}
+.aside2_img{
+    margin-top: 50px;
+  
+}
+.aside2{
+    margin-top: 25px;
+}
+/* regis */
+.regis_hamma{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+    border-radius: 32px;
+    height: 350px;
+}
+.regis_input{
+    display: flex;
+    flex-direction: column;
+}
+.regis_text{
+    flex-direction: column;
+color: #fff;
+
+}
+.regis{
+    margin: 25px 0;
+   
+    
+}
+.regis_text h5{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #118DA8;
+}
+.regis_text h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 79px;
+/* or 110% */
+
+letter-spacing: 2.88px;
+
+color: #FFFFFF;
+}
+.regis_input{
+    padding: 15px 0;
+}
+.regis_input input{
+    background: #191919;
+border: 1px solid #191919;
+border-radius: 6px;
+margin: 15px 0;
+padding: 20px 15px;
+padding-right: 80px;
+}
+.regis_input button{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 29px;
+/* identical to box height, or 192% */
+
+
+color: rgba(255, 255, 255, 0.7);
+
+background: #118DA8;
+border-radius: 6px;
+padding: 10px 20px;
+}
+.image-hammasi{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 10px 15px;
+}
+.image-hammasi1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+margin-top:  70px ;
+margin-bottom: 50px;
+}
+.footer ul{
+    list-style: none;
+
+
+}
+.footer ul li{
+    padding: 10px 0;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+
+
+color: #FFFFFF;
+
+}
+.fot-1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.fot-image img{
+    padding: 0 10px;
+}
+.fot-1 img{
+    padding: 0 8px;
+}
+
+
